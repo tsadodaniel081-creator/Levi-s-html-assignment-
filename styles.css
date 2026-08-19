@@ -1,0 +1,72 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Sidebar - fixed on desktop, slides in on mobile */
+.w3-sidebar {
+  height: 100%;
+  width: 250px;
+  background-color: #fff;
+  position: fixed !important;
+  z-index: 1;
+  overflow: hidden;
+  border-right: 1px solid #eee;
+}
+
+#profile-pic {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+
+/* Main content sits to the right of the sidebar on large screens */
+.w3-main {
+  margin-left: 250px;
+}
+
+.portfolio-img {
+  height: 260px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.about-img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+}
+
+.filter-btn {
+  cursor: pointer;
+}
+
+.filter-btn.active {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+.w3:hover {
+  color: #4caea6;
+  background-color: #fff;
+}
+
+.w3-teal-custom {
+  background-color: #4caea6 !important;
+}
+.w3-row-padding-bar-item:hover {
+  background-color: #4caea6;
+  color: #fff;
+}
+@media only screen and (max-width: 992px) {
+  .w3-sidebar {
+    display: none;
+  }
+  .w3-main {
+    margin-left: 0;
+  }
+}
