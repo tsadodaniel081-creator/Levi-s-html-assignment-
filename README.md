@@ -1,2 +1,1 @@
-# Levi-s-html-assignment-
-My code project 
+My project
